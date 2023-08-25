@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #2e2f42;
+  --secondary-color: #4d5ae5;
+  --color-txt-button: #f4f4fd;
+  --color-portfolio: #434455;
+  --primary-font: "Raleway", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+  --transition-dur-adn-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
