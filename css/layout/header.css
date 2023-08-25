@@ -1,3 +1,48 @@
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+  .contact-list {
+    display: none;
+  }
+  .page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .logotype-blue {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color, #4d5ae5);
+  }
+  .logotype-dark {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color, #2e2f42);
+  }
+  .mobile-menu-open-btn {
+    border: none;
+    border-color: transparent;
+    padding: 0;
+    line-height: 0;
+  }
+  .mobile-menu-open-btn-icon {
+    stroke: var(--primary-color);
+  }
+}
+
 /* .page-header-container {
   display: flex;
 }
