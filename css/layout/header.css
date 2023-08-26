@@ -1,4 +1,4 @@
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 768px) {
   .menu {
     display: none;
   }
@@ -149,15 +149,91 @@
     stroke: var(--primary-color);
   }
 }
-@media screen and (min-width: 429px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 1157px) {
   .mobile-menu {
     display: none;
   }
   .mobile-menu-open-btn {
     display: none;
   }
+  .page-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  }
+  .page-navigation {
+    display: flex;
+    align-items: center;
+  }
+  .page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logotype-blue {
+    /* font-family: var(--font-family-logo); */
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+  }
+  .logotype-dark {
+    color: var(--primary-color);
+    margin-right: 120px;
+  }
+  .menu {
+    font-weight: 500;
+    color: var(--primary-color);
+    display: flex;
+    gap: 40px;
+  }
+  .contact {
+    display: flex;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    color: var(--primary-color);
+    font-style: normal;
+  }
+
+  .menu-link {
+    position: relative;
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--primary-color);
+    transition: color var(--transition-dur-adn-func);
+  }
+
+  .menu-link-active {
+    color: #404bbf;
+  }
+  .menu-link-active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+  }
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .contact-link {
+    color: var(--primary-color);
+  }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1158px) {
   .mobile-menu {
     display: none;
   }
@@ -221,7 +297,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-color);
-    margin-right: 76px;
+    margin-right: 120px;
   }
   .logotype-dark {
     color: var(--primary-color);
