@@ -1,0 +1,24 @@
+@media screen and (max-width: 1157px) {
+  .section-doing {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .top-doing {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    margin-bottom: 72px;
+  }
+  .doing-list {
+    display: flex;
+    gap: 24px;
+  }
+  .doing-list-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+  }
+}

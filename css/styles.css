@@ -8,25 +8,6 @@
 
 /* ====== SECTION3 ======= */
 
-.top-doing {
-  font-size: 36px;
-  /* font-weight: 500; */
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  margin-bottom: 72px;
-}
-.doing-list {
-  display: flex;
-  gap: 24px;
-  /* flex-basis: calc((100% - 2 * 24px) / 3); */
-}
-.doing-list-item {
-  flex-basis: calc((100% - 2 * 24px) / 3);
-}
-
 /* ====== SECTION4 ======= */
 .team {
   background-color: #f4f4fd;
