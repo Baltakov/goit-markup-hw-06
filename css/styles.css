@@ -5,38 +5,7 @@
 /* ====== SECTION1 ======= */
 
 /* ====== SECTION2 ======= */
-.values {
-  margin-bottom: 8px;
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--primary-color);
-}
-.description {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-portfolio);
-}
-.values-list {
-  display: flex;
-  /* width: calc((100% - 3 * 24px) / 4); */
-  gap: 24px;
-}
-.benefits-list-item {
-  width: calc((100% - 3 * 24px) / 4);
-}
-.values-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  margin-bottom: 8px;
-  border-radius: 4px;
-  background-color: var(--color-txt-button);
-}
+
 /* ====== SECTION3 ======= */
 
 .top-doing {
