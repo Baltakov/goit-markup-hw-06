@@ -37,6 +37,17 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+  .values {
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+  }
   .values-wrapper {
     display: none;
   }
