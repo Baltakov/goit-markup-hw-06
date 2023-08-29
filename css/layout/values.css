@@ -4,7 +4,7 @@
   color: var(--color-portfolio);
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 767px) {
